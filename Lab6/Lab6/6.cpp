@@ -10,7 +10,9 @@ int main() {
     // srand(time(NULL));
     setlocale(LC_ALL, "Rus");
     int M[10][10];
-    int A[20];
+
+    int A[20];// massiv 
+
     int* iA = A;
 
     printf("Часть А\n\n Массив:\n ");
