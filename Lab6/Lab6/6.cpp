@@ -10,8 +10,8 @@ int main() {
     // srand(time(NULL));
     setlocale(LC_ALL, "Rus");
     int M[10][10];
-    int A[20];
-    int* iA = A;
+    int A1[20];
+    int* iA = A1;
 
     printf("Часть А\n\n Массив:\n ");
     for (int i = 0; i < 20; i++) {
@@ -20,7 +20,7 @@ int main() {
         iA++;
     }
     printf("\n");
-    iA = A;
+    iA = A1;
     printf("Отрицательные:\n");
     for (int i = 0; i < 20; i++) {
         if (*(iA + i) < 0) printf("%5d", *(iA + i));
